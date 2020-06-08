@@ -46,7 +46,11 @@ a {
 }
 
 a:hover {
-  color: #4c6c97;
+  color: #96b8e4;
+}
+
+a:focus {
+  text-decoration: underline;
 }
 
 button {
@@ -217,6 +221,7 @@ nav ul {
 .card h4,
 .card p {
   padding: 1rem;
+  line-height: 1.8;
 }
 
 /* Contact Section */
@@ -296,6 +301,11 @@ footer h5 {
   flex: 1 1 40rem;
   justify-content: space-evenly;
   align-items: center;
+}
+
+button:focus {
+  background: #1c2838;
+  outline-style: solid;
 }
 
 /* Media Queries */
